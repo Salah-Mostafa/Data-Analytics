@@ -20,7 +20,7 @@ def noon_scrape(link):
         browser.get(link)
         time.sleep(3)
 
-        # scrape watchs name by using beautiful-soup:
+        # scrape watchs names by using beautiful-soup:
         watchs_list = browser.find_elements('class name', 'ProductDetailsSection-module-scss-module__Y6u1Qq__wrapper')
 
         #======================================= Inner try-except start ======================================================
